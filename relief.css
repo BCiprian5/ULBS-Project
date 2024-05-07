@@ -1,0 +1,113 @@
+body{
+	background-image: url(backgroundrelief.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+	
+	
+}
+
+img{
+	position:fixed;
+	top: 20px; 
+	left: 30px; 
+	height:50px; 
+	width:50px;  
+	border:1px solid black;
+	background-color:rgba(0,0,0,0.7);
+}
+
+.header {
+  text-align: center;
+  
+}
+
+h1 {
+  font-family: Garamond;
+  font-size: 60px;
+  color: white;
+  -webkit-text-stroke: 0.5px #2E4053;
+  text-shadow: 5px 5px 10px black;
+  font-weight: 700;
+}
+
+a {
+  text-align: center;
+  position: relative;
+  left: 690px;
+  font-family: Helvetica;
+  font-size: 25px;
+  font-weight: 700;
+  color: white;
+  -webkit-text-stroke: 1px #2E4053;/*#D4EFDF #2E4053 niste coduri de culoare*/
+  text-shadow: 1px 1px 1px black;
+  padding: 2px;
+  width: 130px;
+  transition: transform;
+  transition-duration: 0.1s;
+  display: block;
+  margin-right: 10px;
+  text-decoration: none;
+  background-color: rgba(72, 201, 176 ,0.4);
+}
+a:hover {
+  transform: translateY(-2px);
+  color: #D4EFDF;
+}
+
+.tabel{
+	display: flex;
+    justify-content: center;
+	text-align:center;
+	background-color:black ;
+
+}
+td{
+	 font-family: Helvetica;
+  font-size: 25px;
+  color: white;
+  -webkit-text-stroke: 0.75px black;
+  text-shadow: 1px 1px 1px black;
+  font-weight: 600;
+}  
+
+th{
+	font-family: Helvetica;
+  font-size: 30px;
+  color: #127746;
+  -webkit-text-stroke: 0.75px black;
+ 
+  font-weight: 800;
+}
+	
+#primac{
+	color:#127746;
+}
+#imgmunte{
+	background-image:url(munte.jpg);
+	background-size:cover;
+	transition: transform 0.3s ease;
+}	
+	#imgmunte:hover{
+            transform:scale(1.1);
+        }
+
+#imgdealuri{
+	background-image:url(dealuri.jpg);
+	background-size:cover;
+	transition: transform 0.3s ease;
+}	
+	#imgdealuri:hover{
+            transform:scale(1.1);
+        }
+
+
+#imgcamp{
+	background-image:url(campie.jpg);
+	background-size:cover;
+	transition: transform 0.3s ease;
+}	
+	#imgcamp:hover{
+            transform:scale(1.1);
+        }
+}

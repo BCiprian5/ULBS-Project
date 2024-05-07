@@ -1,0 +1,75 @@
+body{
+	background-image: url(backgroundist.jpg);
+	background-size: cover;
+	
+	
+	
+}
+
+.header {
+  text-align: center;
+  
+}
+
+h1 {
+  font-family: Garamond;
+  font-size: 60px;
+  color: white;
+  -webkit-text-stroke: 0.5px #2E4053;
+  text-shadow: 5px 5px 10px black;
+  font-weight: 700;
+}
+
+a {
+  text-align: center;
+  position: relative;
+  left: 700px;
+  font-family: Helvetica;
+  font-size: 25px;
+  font-weight: 700;
+  color: white;
+  -webkit-text-stroke: 1px #2E4053;/*#D4EFDF #2E4053 niste coduri de culoare*/
+  text-shadow: 1px 1px 1px black;
+  padding: 2px;
+  width: 130px;
+  transition: transform;
+  transition-duration: 0.1s;
+  display: block;
+  margin-right: 10px;
+  text-decoration: none;
+  background-color: rgba(0, 0, 0  ,0.6);
+}
+
+a:hover {
+  transform: translateY(-2px);
+  color: #D4EFDF;
+}
+
+.iframe{
+	float:left;
+	margin-right:10px;
+	margin-bottom:10px;
+}
+h2{
+	
+	font-family: Garamond;
+  font-size: 35px;
+  color: white;
+  -webkit-text-stroke: 0.5px #2E4053;
+  text-shadow: 5px 5px 10px black;
+  font-weight: 600;
+  text-align:center;
+  background-color: rgba(0, 0, 0  ,0.6);
+  
+}
+
+p{
+	font-size:20px;
+	font-family:Helvetica;
+	font-weight:600;
+	color: white;
+	background-color: rgba(0, 0, 0  ,0.6);
+	text-shadow: 3px 3px 3px black;
+	width:1500px;
+	
+}

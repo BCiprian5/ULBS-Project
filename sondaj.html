@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="sondaj.css">
+      <title>Sondaj</title>
+</head>
+<body>
+<div class="header">
+        <h1>Sondaj</h1>
+        <a href="Acasa.html">Acasa</a>
+        <a href="istorie.html">Istorie</a>
+        <a href="relief.html">Relief</a>
+        <a href="curiozitati.html">Curiozitati</a>
+        <a href="sondaj.html">Sondaj</a>
+        <a href="contact.html">Contact</a>
+        <hr size="3" width="100%" align="center" color="black">
+    </div>
+<blockquote>
+    <p id="bq"><q>România este patria mea, restul sunt doar ţări.</q></p>
+
+</blockquote>
+
+<p id="pi">Formular/Sondaj</p>
+<div class="container">
+    
+    <form>
+<label for="intrebare" align="center">1. In ce zona a tarii locuiti?</label><br><br>	
+        <input type="radio" name="opțiune" value="Oltenia"> Oltenia
+        <input type="radio" name="opțiune" value="Muntenia"> Muntenia
+        <input type="radio" name="opțiune" value="Dobrogea"> Dobrogea
+        <input type="radio" name="opțiune" value="Moldova"> Moldova
+        <input type="radio" name="opțiune" value="Ardeal"> Ardeal
+        <input type="radio" name="opțiune" value="Banat/Crisana"> Banat/Crisana
+        <input type="radio" name="opțiune" value="Bucovina"> Bucovina<br><br><br>
+		
+		<label for="intrebarea2" align="center">2. Ati luat in considerare sa va mutati din tara?</label><br><br>
+		<input type="checkbox" id="checkbox1" name="checkbox1" value="checkboxvalue">Da
+		<input type="checkbox" id="checkbox2" name="checkbox2" value="checkboxvalue">Nu
+		<input type="checkbox" id="checkbox3" name="checkbox3" value="checkboxvalue">Sunt nehotarat/a <br><br><br>
+		
+		<label for="selectControl" align="center">3. Selectează zona preferată pentru vacanță:</label><br><br>
+<select id="selectControl" name="selectControl">
+    <option value="Mare">Zonă de litoral</option>
+    <option value="Munte">Zonă montană</option>
+    <option value="Oras">Oraș</option>
+    <option value="Delta">Zonă de deltă</option>
+    <option value="Padure">Zonă împădurită</option>
+</select><br><br><br>
+		<p class="altul">4. Lasa-ne o recenzie sau o sugestie</p><br><textarea rows="4" cols="50">
+Asteptam cu drag opinia ta.
+</textarea><br><br>
+		<p class="altul">5. Sugereaza- ne peisaje noi! :D &nbsp </p><input type="file" id="fileInput"><br><br><br>
+		
+		<input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+</form>
+</div>
+
+<br>
+<br>
+<p id="pi">Bonus</p>
+
+<div class="container">
+    <form>
+        <label for="intrebarea3" align="center">Ti-a placut site-ul?</label><br><br>
+        <input type="checkbox" id="checkbox4" name="checkbox4" value="checkboxvalue">Da
+        <input type="checkbox" id="checkbox5" name="checkbox5" value="checkboxvalue">Nu<br><br>
+        <input type="image" src="buton.png" alt="Submit" width="20" height="20">
+    </form>
+</div>
+
+</body>
+</html>
